@@ -23,6 +23,66 @@ export const routes: IRoute[] = [
     ],
   },
   {
+    name: 'menu.deposit',
+    key: 'deposit',
+    children: [
+      {
+        name: 'menu.deposit.dashboard',
+        key: 'deposit/dashboard',
+      },
+    ],
+  },
+  {
+    name: 'menu.financing',
+    key: 'financing',
+    children: [
+      {
+        name: 'menu.financing.dashboard',
+        key: 'financing/dashboard',
+      },
+    ],
+  },
+  {
+    name: 'menu.fund',
+    key: 'fund',
+    children: [
+      {
+        name: 'menu.fund.dashboard',
+        key: 'fund/dashboard',
+      },
+    ],
+  },
+  {
+    name: 'menu.stock',
+    key: 'stock',
+    children: [
+      {
+        name: 'menu.stock.dashboard',
+        key: 'stock/dashboard',
+      },
+    ],
+  },
+  {
+    name: 'menu.futures',
+    key: 'futures',
+    children: [
+      {
+        name: 'menu.futures.dashboard',
+        key: 'futures/dashboard',
+      },
+    ],
+  },
+  {
+    name: 'menu.user',
+    key: 'user',
+    children: [
+      {
+        name: 'menu.user.dashboard',
+        key: 'user/dashboard',
+      },
+    ],
+  },
+  {
     name: 'Example',
     key: 'example',
   },
